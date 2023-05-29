@@ -21,7 +21,7 @@ exports.config = {
       device: "Samsung Galaxy Note 20",
       os_version: "10.0",
 
-      project: "First project with Device Farm",
+      project: "Project with Device Farm and Jenkins",
       build: "1",
       name: "Add_product_test",
     },
