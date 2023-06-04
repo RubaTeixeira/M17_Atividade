@@ -13,8 +13,10 @@
     "@wdio/allure-reporter": "^8.5.0",
     "@wdio/appium-service": "^8.10.4",
     "@wdio/browserstack-service": "^8.10.4",
+    "@wdio/junit-reporter": "^8.10.6",
     "allure-commandline": "^2.21.0",
     "appium": "^1.22.3",
-    "wdio-video-reporter": "^3.5.0"
+    "wdio-video-reporter": "^3.5.0",
+    "wdio-browserstack-reporter": "~0.1.1"
   }
 }

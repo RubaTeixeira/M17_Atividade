@@ -21,7 +21,7 @@ exports.config = {
       device: "Samsung Galaxy Note 20",
       os_version: "10.0",
 
-      project: "Project with Device Farm and Jenkins",
+      project: "Project with Browserstack and Jenkins",
       build: "1",
       name: "Add_product_test",
     },
@@ -49,5 +49,10 @@ exports.config = {
   },
 
   //Relatório de teste
-  reporters: ["spec"],
+  reporters: ["browserstack"],
+  reporterOptions: {
+    browserstack: {
+      outputDir: "./",
+    },
+  },
 };
